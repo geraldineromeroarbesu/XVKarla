@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página 3</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .centered-img {
+      max-width: 100vw;
+      max-height: 100vh;
+    }
+    .contador {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 120px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body class="page3">
+  <div class="centered">
+    <img src="Fotos/foto4.png" class="centered-img" />
+  </div>
+
+  <!-- ✅ Contador con iframe HTTPS -->
+  <div class="contador">
+    <iframe src="https://www.tickcounter.com/countdown/7636432/solo-faltan"
+      style="width: 100%; height: 100%; border: none;"
+      title="Solo Faltan"
+      loading="lazy"
+      allowfullscreen></iframe>
+  </div>
+</body>
+</html>
